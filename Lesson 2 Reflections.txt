@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+	When you initialize a repository it just creates the .git folder within the current folder. It does not add any commits or anything. It also tells you about any untracked files you have leftover. You have to manually add commits
+
