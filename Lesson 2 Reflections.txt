@@ -1,3 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
 	When you initialize a repository it just creates the .git folder within the current folder. It does not add any commits or anything. It also tells you about any untracked files you have leftover. You have to manually add commits
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	It is an intermediate workspace that allows me to add/remove files that i feel should be committed to the repository. This means I don't have to commit files separately if there is a logical flow for multiple files to be commited together.
