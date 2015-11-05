@@ -3,3 +3,18 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	It is an intermediate workspace that allows me to add/remove files that i feel should be committed to the repository. This means I don't have to commit files separately if there is a logical flow for multiple files to be commited together.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	The staging area is a sort of intermediary workspace. I can add/remove files to commit and ensure that they only apply to a single logical change. Thus, I can commit the files only for that logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Branches are useful when I want to edit a large change in my code but want to maintain the original code as well. This allows me to expand my code in multiple paths without having to worry about forgetting which path is which and having them affect each other. 
+
+How do the diagrams help you visualize the branch structure?
+	They help you understand what commits are reachable and which aren't. It also helps you see which commite references which previous commit and gives you an idea into when a commit was applied relative to other commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Merging 2 branches results in a single branch with the changes of both branches in tact. We represent it as a combination of two branches becasue we are taking the changes from each and combing them together.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Git's automatic merge is good for simple changes that where there wasn't alot of differences between our code. It is faster than manual merge but it doesn't know what to do when 2 lines of code are both changed but do similar functions.
